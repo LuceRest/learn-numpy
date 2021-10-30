@@ -1,0 +1,5 @@
+- numpy.linalg.inv()	~> Berfungsi untuk menginvers suatu matrix.
+- numpy.linalg.inv(<matrix>)
+
+- numpy.linalg.det()	~> Berfungsi untuk menghitung determinan dari suatu matrix.
+- numpy.linalg.det(<matrix>)

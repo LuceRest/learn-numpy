@@ -1,0 +1,2 @@
+- numpy.linalg.solve()	~> Berfungsi untuk menyelesaikan persamaan linear.
+- numpy.linalg.solve(<matrix 1>, <matrix 2>)

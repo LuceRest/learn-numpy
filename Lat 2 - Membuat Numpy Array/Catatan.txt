@@ -1,0 +1,23 @@
+- numpy.array()		~> Berfungsi juga untuk membuat vector.
+- numpy.array([<nilai vector 1>, <nilai vector 2>, <nilai vector ...>]
+
+- numpy.arange()    	~> Berfungsi juga untuk membuat vector dengan range.
+- numpy.arange(<batas bawah>, <batas atas>, <range/jarak>)
+
+- numpy.linspace()	~> Berfungsi untuk membuat linspace / linear space.
+- numpy.linspace(<batas bawah>, <batas atas>, <jumlah nilai yg ingin ditampilkan dari batas bawah sampai atas>)
+
+- numpy.array()		~> Berfungsi juga untuk membuat matrix / array multidimensi.
+- numpy.array([ (<nilai baris 1>), (<nilai baris 2>), (<nilai baris ...>) ])
+
+- numpy.zeros()		~> Berfungsi untuk membuat matrix dengan nilai nol.
+- numpy.zeros((<jumlah baris>, <jumlah kolom>))
+
+- numpy.ones()		~> Berfungsi untuk membuat matrix dengan nilai satu.
+- numpy.ones((<jumlah baris>, <jumlah kolom>))
+
+- numpy.identity()	~> Berfungsi untuk membuat matrix identitas.
+- numpy.identity(<jumlah baris & kolom>)
+
+- numpy.eye()		~> Berfungsi untuk membuat matrix identitas.
+- numpy.eye(<jumlah baris & kolom>)

@@ -1,0 +1,5 @@
+- numpy.hstack()	~> Berfungsi untuk menumpuk/menggabungkan matrix (staking matrix) secara horizontal (mendatar), namun barisnya harus sama.
+- numpy.hstack((<matrix 1>, <matrix 2>))
+
+- numpy.vstack()	~> Berfungsi untuk menumpuk/menggabungkan matrix (staking matrix) secara vertikal (menurun), namun kolomnya harus sama.
+- numpy.vstack((<matrix 1>, <matrix 2>))

@@ -1,0 +1,3 @@
+- Operasi pada array numpy akan dilakukan sesuai dengan index array.
+- Operasi perkalian pada array numpy tidak dilakukan seperti perkalian pada matrix.
+- List pada python tidak bisa dikurang, dikali, maupun dibagi.

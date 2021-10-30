@@ -1,0 +1,16 @@
+- <matrix numpy>.shape		~> Berfungsi untuk mengambil ukuran dari suatu matrix.
+
+- <matrix numpy>.transpose()	~> Berfungsi untuk melakukan transpose pada suatu matrix.
+- <matrix numpy>.transpose()
+- numpy.transpose(<matrix numpy>)
+- <matrix numpy>.T
+
+- <matrix numpy>.ravel()	~> Berfungsi untuk membuat suatu matrix menjadi vector baris / flatten array.
+- <matrix numpy>.ravel()
+- numpy.ravel(<matrix numpy>)
+
+- <matrix numpy>.reshape()	~> Berfungsi untuk merubah bentuk suatu matrix, namun jumlah isi komponen matrix masih tetap.
+- <matrix numpy>.reshape(<jumlah baris baru>, <jumlah kolom baru>)
+
+- <matrix numpy>.resize()	~> Berfungsi untuk merubah bentuk suatu matrix dan merubah variabel dari matrix numpy tsb, namun jumlah isi komponen matrix masih tetap.
+- <matrix numpy>.resize(<jumlah baris baru>, <jumlah kolom baru>)

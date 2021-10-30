@@ -1,0 +1,15 @@
+- matplotlib.pyplot.plot()      ~> Berfungsi untuk menaruh suatu nilai di sumbu x dan y.
+- matplotlib.pyplot.plot(<sumbu x>, <sumbu y>)
+
+- matplotlib.pyplot.show()      ~> Berfungsi untuk menampilkan grafik fungsi yg telah ditaruh sumbu-sumbunya.
+
+- numpy.pi		        ~> Berfungsi untuk memunculkan nilai phi.
+
+- numpy.cos()			~> Berfungsi untuk memunculkan nilai cos dari suatu sudut.
+- numpy.cos(<sudut>)
+
+- numpy.sin()			~> Berfungsi untuk memunculkan nilai sin dari suatu sudut.
+- numpy.sin(<sudut>)
+
+- matplotlib.pyplot.figure()    ~> Berfungsi untuk membuat figura / tempat / window untuk suatu grafik fungsi.
+- matplotlib.pyplot.figure(<window ke berapa>)

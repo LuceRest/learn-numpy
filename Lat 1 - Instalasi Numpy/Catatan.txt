@@ -1,0 +1,2 @@
+- numpy.array()	    ~> Berfungsi untuk membuat array.
+- numpy.array([<isi array>])

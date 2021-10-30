@@ -1,0 +1,181 @@
+Latihan 1 :
+
+- numpy.array()	    ~> Berfungsi untuk membuat array.
+- numpy.array([<isi array>])
+
+
+
+Latihan 2 :
+
+- numpy.array()		~> Berfungsi juga untuk membuat vector.
+- numpy.array([<nilai vector 1>, <nilai vector 2>, <nilai vector ...>]
+
+- numpy.arange()    	~> Berfungsi juga untuk membuat vector dengan range.
+- numpy.arange(<batas bawah>, <batas atas>, <range/jarak>)
+
+- numpy.linspace()	~> Berfungsi untuk membuat linspace / linear space.
+- numpy.linspace(<batas bawah>, <batas atas>, <jumlah nilai yg ingin ditampilkan dari batas bawah sampai atas>)
+
+- numpy.array()		~> Berfungsi juga untuk membuat matrix / array multidimensi.
+- numpy.array([ (<nilai baris 1>), (<nilai baris 2>), (<nilai baris ...>) ])
+
+- numpy.zeros()		~> Berfungsi untuk membuat matrix dengan nilai nol.
+- numpy.zeros((<jumlah baris>, <jumlah kolom>))
+
+- numpy.ones()		~> Berfungsi untuk membuat matrix dengan nilai satu.
+- numpy.ones((<jumlah baris>, <jumlah kolom>))
+
+- numpy.identity()	~> Berfungsi untuk membuat matrix identitas.
+- numpy.identity(<jumlah baris & kolom>)
+
+- numpy.eye()		~> Berfungsi untuk membuat matrix identitas.
+- numpy.eye(<jumlah baris & kolom>)
+
+
+
+Latihan 3 :
+
+- Operasi pada array numpy akan dilakukan sesuai dengan index array.
+- Operasi perkalian pada array numpy tidak dilakukan seperti perkalian pada matrix.
+- List pada python tidak bisa dikurang, dikali, maupun dibagi.
+
+
+
+Latihan 4 :
+
+- Indexing pada array numpy sama seperti indexing di list python.
+
+
+
+Latihan 5 :
+
+- numpy.dot()	~> Berfungsi untuk mengalikan dua matrix.
+- numpyt.dot(<matrix 1>, <matrix 2>)
+- <matrix 1>.dot(<matrix 2>)
+
+
+
+Latihan 6 :
+
+- <matrix numpy>.shape		~> Berfungsi untuk mengambil ukuran dari suatu matrix.
+
+- <matrix numpy>.transpose()	~> Berfungsi untuk melakukan transpose pada suatu matrix.
+- <matrix numpy>.transpose()
+- numpy.transpose(<matrix numpy>)
+- <matrix numpy>.T
+
+- <matrix numpy>.ravel()	~> Berfungsi untuk membuat suatu matrix menjadi vector baris / flatten array.
+- <matrix numpy>.ravel()
+- numpy.ravel(<matrix numpy>)
+
+- <matrix numpy>.reshape()	~> Berfungsi untuk merubah bentuk suatu matrix, namun jumlah isi komponen matrix masih tetap.
+- <matrix numpy>.reshape(<jumlah baris baru>, <jumlah kolom baru>)
+
+- <matrix numpy>.resize()	~> Berfungsi untuk merubah bentuk suatu matrix dan merubah variabel dari matrix numpy tsb, namun jumlah isi komponen matrix masih tetap.
+- <matrix numpy>.resize(<jumlah baris baru>, <jumlah kolom baru>)
+
+
+
+Latihan 7 :
+
+- numpy.hstack()	~> Berfungsi untuk menumpuk/menggabungkan matrix (staking matrix) secara horizontal (mendatar), namun barisnya harus sama.
+- numpy.hstack((<matrix 1>, <matrix 2>))
+
+- numpy.vstack()	~> Berfungsi untuk menumpuk/menggabungkan matrix (staking matrix) secara vertikal (menurun), namun kolomnya harus sama.
+- numpy.vstack((<matrix 1>, <matrix 2>))
+
+
+
+Latihan 8 :
+
+- numpy.array((<matrix>), dtype = <tipe data>)
+    - dtype	~> Berfungsi untuk mengatur tipe datanya.
+
+- numpy.fromfunction()	~> Berfungsi untuk membuat array dengan menggunakan function.
+- numpy.fromfunction(<function>, (<baris>, <kolom>), dtype = <tipe data>)
+
+- numpy.fromiter()	~> Berfungsi untuk membuat array dengan menggunakan iteration.
+- numpy.fromiter(<iteration>, dtype = <tipe data>)
+
+- numpy.array()		~> Berfungsi juga untuk membuat array dengan multitype data.
+
+
+
+Latihan 9 :
+
+- numpy.random.randn()	~> Berfungsi untuk memunculkan array random.
+- numpy.random.randn(<baris>, <kolom>)
+
+- numpy.floor()			~> Berfungsi untuk membulatkan bilangan ke bawah.
+- numpy.floor(<bilangan/array>)
+
+- .max()			~> Berfungsi untuk mengambil nilai maksimal dari suatu array.
+- <array>.max()
+
+- .argmax()			~> Berfungsi untuk mengambil index dari nilai maksimal suatu array yang pertama kali ketemu.
+- <array>.argmax()
+
+- .min()			~> Berfungsi untuk mengambil nilai minimal dari suatu array.
+- <array>.min()
+
+- .argmin()			~> Berfungsi untuk mengambil index dari nilai minimal suatu array yang pertama kali ketemu.
+- <array>.argmin()
+
+- numpy.sort()			~> Berfungsi untuk mengurutkan suatu array dari nilai terkecil ke terbesar.
+- numpy.sort(<array>)
+
+- numpy.argsort()		~> Berfungsi untuk mengurutkan index suatu array dari index yg nilainya terkecil ke index yg nilainya terbesar.
+- numpy.argsort(<array>)
+
+- Sorting untuk array yg barisnya lebih dari satu, maka akan dilakukan sorting per baris.
+
+- numpy.sort(<array>, order = <acuan urutan>)
+    - order	~> Berfungsi untuk acuan urutan saat mengurutkan suatu array.
+
+
+
+Latihan 10 :
+
+- numpy.dot()	~> Berfungsi untuk melakukan perkalian dot pada dua buah matrix / vector yg hasilnya suatu bilangan.
+- numpy.dot(<matrix/vector 1>, <matrix/vector2>)
+
+- numpy.cross()	~> Berfungsi untuk melakukan perkalian cross pada dua buah matrix / vector yg hasilnya matrix / vector.
+- numpy.cross(<matrix/vector1>, <matrix/vector2>)
+
+
+
+Latihan 11 :
+
+- numpy.linalg.inv()	~> Berfungsi untuk menginvers suatu matrix.
+- numpy.linalg.inv(<matrix>)
+
+- numpy.linalg.det()	~> Berfungsi untuk menghitung determinan dari suatu matrix.
+- numpy.linalg.det(<matrix>)
+
+
+
+Latihan 12 :
+
+- numpy.linalg.solve()	~> Berfungsi untuk menyelesaikan persamaan linear.
+- numpy.linalg.solve(<matrix 1>, <matrix 2>)
+
+
+
+Latihan 13 :
+
+- matplotlib.pyplot.plot()      ~> Berfungsi untuk menaruh suatu nilai di sumbu x dan y.
+- matplotlib.pyplot.plot(<sumbu x>, <sumbu y>)
+
+- matplotlib.pyplot.show()      ~> Berfungsi untuk menampilkan grafik fungsi yg telah ditaruh sumbu-sumbunya.
+
+- numpy.pi		        ~> Berfungsi untuk memunculkan nilai phi.
+
+- numpy.cos()			~> Berfungsi untuk memunculkan nilai cos dari suatu sudut.
+- numpy.cos(<sudut>)
+
+- numpy.sin()			~> Berfungsi untuk memunculkan nilai sin dari suatu sudut.
+- numpy.sin(<sudut>)
+
+- matplotlib.pyplot.figure()    ~> Berfungsi untuk membuat figura / tempat / window untuk suatu grafik fungsi.
+- matplotlib.pyplot.figure(<window ke berapa>)
+

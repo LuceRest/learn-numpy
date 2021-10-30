@@ -1,0 +1,5 @@
+- numpy.dot()	~> Berfungsi untuk melakukan perkalian dot pada dua buah matrix / vector yg hasilnya suatu bilangan.
+- numpy.dot(<matrix/vector 1>, <matrix/vector2>)
+
+- numpy.cross()	~> Berfungsi untuk melakukan perkalian cross pada dua buah matrix / vector yg hasilnya matrix / vector.
+- numpy.cross(<matrix/vector1>, <matrix/vector2>)
